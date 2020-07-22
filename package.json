@@ -1,0 +1,33 @@
+{
+  "name": "the-best-components",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:button": "rm -rf ./bin/button && webpack --mode production --config ./webpack.button.config.js",
+    "build:loading": "rm -rf ./bin/loading && webpack --mode production --config ./webpack.loading.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.10.5",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "babel-loader": "8.1.0",
+    "copy-pkg-json-webpack-plugin": "0.0.39",
+    "css-loader": "3.6.0",
+    "html-loader": "1.1.0",
+    "html-webpack-plugin": "4.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "the-best-button2": "^1.0.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
